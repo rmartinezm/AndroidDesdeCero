@@ -6,6 +6,27 @@
     android:layout_height="match_parent"
     tools:context="com.programacion.robertomtz.androiddesdecero.MainActivity">
 
+    <!-- La Propiedad android:layout_width="150dp" (Propiedad Obligatoria)
+         Al colocar esta propiedad en nuestro View el largo de nuestro View
+         sera de 150dp.
+         * match_parent => Toda la pantalla
+         * wrap_content => El largo que ocupe nuestro View -->
+
+    <!-- La Propiedad android:layout_height="150dp" (Propiedad Obligatoria)
+         Al colocar esta propiedad en nuestro View la altura de nuestro View
+         sera de 150dp.
+         * match_parent => Toda la pantalla
+         * wrap_content => El largo que ocupe nuestro View -->
+
+    <!-- La Propiedad android:id="@+id/miIdentificador" (Propiedad NO Obligatoria)
+         Al colocar esta propiedad en nuestro View se asociara el identificador especificado
+         despues de la etiqueta (Obligatoria) @+id/
+         Esta propiedad nos sirve para poder vincular el archivo .xml con el archivo .java -->
+
+    <!-- La Propiedad android:onClick="miMetodo"
+         Al dar click en este View se ejecutara el metodo especificado entre comillas
+         de nuestro archivo MusicaActivity.java -->
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -18,6 +39,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.068" />
+
+    <!-- La propiedad android:hint="miTexto"
+         Con esta propiedad colocaremos el texto especificado entre comillas dentro
+         de nuestro EditText -->
+
+    <!-- La propiedad android:inputType="textPassword"
+         Con estra propiedad haremos que cambie la forma de mostrar el texto de entrada del texto
+         en el EditText.
+         * textPassword => Entrada de texto secreto.
+         * numberPassword => Obliga a introducir numeros como contraseña. -->
 
     <EditText
         android:id="@+id/et_password"

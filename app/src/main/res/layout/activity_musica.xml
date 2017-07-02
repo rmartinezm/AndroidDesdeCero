@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context="com.programacion.robertomtz.androiddesdecero.MusicaActivity">
 
+    <!-- La Propiedad android:src="@drawable/miImagen"
+         Al colocar esta propiedad en nuestro ImageView la imagen especificada despues
+         de la etiqueta @drawable/ sera la imagen que guardara nuestro View -->
+
+    <!-- La Propiedad android:background="#000"
+         Al colocar esta propiedad en nuestro View el color asociado al codigo hexadecimal
+         que coloquemos dentro de los parentesis sera el color de fondo del View -->
+
 
     <ImageView
         android:id="@+id/iv_pxndx"
