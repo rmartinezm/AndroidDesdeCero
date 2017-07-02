@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.programacion.robertomtz.androiddesdecero.MusicaActivity">
 
-    <!-- La Propiedad android:src="@drawable/miImagen"
+    <!-- La Propiedad android:src="@drawable/miImagen" o app:srcCompat="@drawable/miImagen"
          Al colocar esta propiedad en nuestro ImageView la imagen especificada despues
          de la etiqueta @drawable/ sera la imagen que guardara nuestro View -->
 
@@ -40,7 +40,7 @@
         android:onClick="metodoMaluma"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/maluma_papasito" />
+        app:srcCompat="@drawable/maluma" />
 
     <ImageView
         android:id="@+id/iv_panic"
